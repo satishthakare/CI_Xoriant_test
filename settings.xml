@@ -7,14 +7,14 @@
             </activation>
             <properties>
                 <sonar.jdbc.url>
-                  jdbc:jtds:sqlserver://10.20.14.81/sonar;SelectMethod=Cursor
+                  jdbc:jtds:sqlserver://10.20.14.81;SelectMethod=Cursor
                 </sonar.jdbc.url>
                 <sonar.jdbc.username>sonar</sonar.jdbc.username>
                 <sonar.jdbc.password>sonar</sonar.jdbc.password>
  
                 <!-- Optional URL to server. Default value is http://localhost:9000 -->
                 <sonar.host.url>
-                  http://10.20.14.81:9000/sonar
+                  http://10.20.14.81:9000
                 </sonar.host.url>
             </properties>
         </profile>
