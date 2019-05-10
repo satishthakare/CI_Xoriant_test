@@ -15,4 +15,8 @@ public class One {
   public void uncoveredMethod() {
     System.out.println(foo());
   }
+  
+   public void Method() {
+    System.out.println(foo());
+  }
 }
