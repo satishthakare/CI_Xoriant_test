@@ -3,8 +3,7 @@ package example;
 public class One {
   String message = "foo";
   String message2 = "toto";
-  String message2 = "toto";
-
+  
   public String foo() {
     return message;
   }
