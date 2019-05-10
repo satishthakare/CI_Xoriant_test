@@ -3,13 +3,14 @@ package example;
 public class One {
   String message = "foo";
   String message2 = "toto";
+  String message2 = "toto";
 
   public String foo() {
-    return message;
+    return message;;
   }
 
   public String toto() {
-    return message2;
+    return mes sage2;
   }
 
   public void uncoveredMethod() {
