@@ -6,11 +6,11 @@ public class One {
   String message2 = "toto";
 
   public String foo() {
-    return message;;
+    return message;
   }
 
   public String toto() {
-    return mes sage2;
+    return message2;
   }
 
   public void uncoveredMethod() {
