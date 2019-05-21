@@ -1,4 +1,4 @@
 FROM anapsix/alpine-java
 MAINTAINER Satish 
-COPY NumberGenerator-1.0.1-SNAPSHOT.jar /home/NumberGenerator-1.0.1-SNAPSHOT
-CMD ["java","-jar","/home/NumberGenerator-1.0.1-SNAPSHOT.jar"]
+COPY example-java-maven-1.0.jar /home/example-java-maven-1.0
+CMD ["java","-jar","/home/example-java-maven-1.0.jar"]
